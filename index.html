@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <link href="style.css" rel="stylesheet">
+    <title>Ревью Докшин Станислав</title>
+</head>
+<body>
+    <header class="header">
+        <button class="header__button_burger"></button>
+        <div class="header__divider header__divider1"></div>
+        <img class="header__logo" src="./img/Group.svg" alt="logo"/>
+        <button class="header__button header__button_call button__none-info"></button>
+        <button class="header__button header__button_chat"></button>
+        <button class="header__button header__button_profile button__none-info"></button>
+        <div class="header__divider"></div>
+        <button class="header__button header__button_repair button__none-info"></button>
+        <button class="header__button header__button_checkstatys button__none-info"></button>
+    </header>
+
+    <aside class="burger__menu">
+            <div class="burger__header">
+                <button class="burger__header-butBurgerClose"></button>
+                <img class="burger__header-logo" src="./img/_MG_3223.svg" alt="logo"/>
+                <button class="burger__header-butCheckstatys button__none-info"></button>
+            </div>
+            <div class="burger__main">
+                <a href="#" class="burger__menu_main-remont button__none-info" id="">Ремонт техники</a>
+                <a href="#" class="burger__menu_main-servis button__none-info" id="">Услуги и сервисы</a>
+                <a href="#" class="burger__menu_main-corporate button__none-info" id="">Корпаротивным клиентам</a>
+                <a href="#" class="burger__menu_main-sellers button__none-info" id="">Продавцам техники</a>
+                <a href="#" class="burger__menu_main-partners button__none-info" id="">Партнерам</a>
+                <a href="#" class="burger__menu_main-manufacturer button__none-info" id="">Производителям</a>
+                <a href="#" class="burger__menu_main-servises button__none-info" id="">Наши сервисные центры</a>
+                <a href="#" class="burger__menu_main-contacts button__none-info" id="">Контакты</a>
+            </div>
+            <div class="burger__footer">
+                <div class="burger__footer-buton">
+                    <button class="burger__footer-button_call button__none-info"></button>
+                    <button class="burger__footer-button_chat"></button>
+                    <button class="burger__footer-button_profile button__none-info"></button>
+                </div>
+                <div class="burger__footer-feedback">
+                    <a href="#" class="burger__footer--mail button__none-info">mail@cps.com</a> 
+                    <a href="tel:+78008908900" class="burger__footer--tel">8 800 890 8900</a>
+                </div>
+                <div class="burger__footer-langSelection">
+                    <button class="burger__footer--lang-ru button__none-info">RU</button>
+                    <button class="burger__footer--lang-en button__none-info">EN</button>
+                    <button class="burger__footer--lang-ch button__none-info">CH</button>
+                </div>
+            </div>
+    </aside>
+
+    <aside class="feedback">
+        <button class="feedback__close"></button>
+        <div class="feedback__title">
+            <div class="feedback__title-highlight"></div>
+            <h2 class="feedback__title-text">Обратная связь</h2>
+        </div>           
+        <form action="#" method="post">
+            <input type="text"  placeholder="Имя" reguired>
+            <input type="tel"  placeholder="Телефон" pattern reguired>
+            <input type="email" placeholder="Электронная почта" reguired>
+            <textarea rows="5"placeholder="Сообщение"  reguired></textarea>
+        </form>
+        <p>Нажимая “отправить”, вы даете согласие на <a href="#">обработку персональных данных</a>
+            и соглашаетесь с нашей <a href="">политикой конфиденциальности</a>
+        </p>
+        <button class="feedbacs__button button__none-info" type="submit"></button>
+    </aside>
+
+    <aside class="back-call">
+        <button class="back-call__close"></button>
+        <div class="back-call__title">
+            <div class="back-call__title-highlight"></div>
+            <h2 class="back-call__title-text">Заказать звонок</h2>
+        </div>
+        <form action="#" method="post">
+            <input type="tel"  placeholder="Телефон" pattern reguired>   
+        </form>
+        <p>Нажимая “отправить”, вы даете согласие на <a href="#">обработку персональных данных</a>
+            и соглашаетесь с нашей <a href="">политикой конфиденциальности</a>
+        </p>
+        <button class="back-call__form-button button__none-info" type="submit"></button>
+        </aside> 
+
+    <main class="main">
+        <div class="title">
+            <div class="title__highlight"></div>
+            <h1 class="title__text">Услуги и сервисы</h1>
+        </div>
+
+        <nav class="nav__menu">
+            <button class="nav__menu_devices button__none-info" >Ремонтируемые устройства</button>
+            <button class="nav__menu_brend button__none-info">Ремонтируемые бренды</button>
+            <button class="nav__menu_dop button__none-info">Дополнительные услуги</button>
+            <button class="nav__menu_prise button__none-info">Цены на услуги</button>
+            <button class="nav__menu_adres button__none-info">Адреса сервисных центров</button>
+            <button class="nav__menu_spec-prase button__none-info">Специальные цены</button>
+            <button class="nav__menu_review button__none-info">Отзывы</button>
+        </nav>
+
+        <section class="main__information">
+            <div class="main__information-text">
+                <p class="information-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать
+                    свой ноутбук Dell с официальной гарантией производителя.
+                    <br><br> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
+                    что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются
+                    по рекомендациям и, в свою очередь, советуют нас родным и близким.<br>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
+                    По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен. 
+                </p>
+                <button class="button__information_read-more">Читать далее</button>
+                <button class="button__information_collapse">Cкрыть</button>
+            </div>       
+            <img class="information-img" src="./img/_MG_3223.svg" alt="logo compani">
+        </section>
+
+        <section class="remont-brend">
+            <div class="remont-brend_title"><p>Ремонт техники различных брендов</p></div>
+            <div class="swiper">
+                <div class="swiper-wrapper main__remont-brend">
+                    <div class="swiper-slide lenova"><a class="button__none-info" href="#"></a></div>
+                    <div class="swiper-slide samsung"><a class="button__none-info" href="#"></a></div>
+                    <div class="swiper-slide apple"><a class="button__none-info" href="#"></a></div>
+                    <div class="swiper-slide apple"><a class="button__none-info" href="#"></a></div>
+                    <div class="swiper-slide viewSonic"><a class="button__none-info" href="#"></a></div>
+                    <div class="swiper-slide bosch"><a class="button__none-info" href="#"></a></div>
+                    <div class="swiper-slide hp"><a class="button__none-info" href="#"></a></div>
+                    <div class="swiper-slide aser"><a class="button__none-info" href="#"></a></div>
+                    <div class="swiper-slide sony"><a class="button__none-info" href="#"></a></div>
+                    <div class="swiper-slide lenova2"><a class="button__none-info" href="#"></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <button class="button__remont-brend_show-more">Показать все</button>
+            <button class="button__remont-brend_collapse">Скрыть</button>
+        </section>
+
+        <section class="remont__devais">
+            <div class="devais-title"><p>Ремонт различных видов техники</p></div>
+            <div class="swiper devais_swiper ">
+                <div class="swiper-wrapper remont__devais-contener">
+                    <div class="swiper-slide remont__devais_notebook"><p>Ремонт ноутбуков</p><a class="button__none-info" ></a></div>
+                    <div class="swiper-slide remont__devais_tablet"><p>Ремонт планшетов</p><a class="button__none-info" ></a></div>
+                    <div class="swiper-slide remont__devais_PC"><p>Ремонт ПК</p><a class="button__none-info"></a></div>
+                    <div class="swiper-slide remont__devais_watch"><p>Ремонт часов</p><a class="button__none-info"></a></div>
+                    <div class="swiper-slide remont__devais_tel"><p>Ремонт телефонов</p><a class="button__none-info"></a></div>
+                    <div class="swiper-slide remont__devais_sega"><p>Ремонт приставки</p><a class="button__none-info"></a></div>
+                    <div class="swiper-slide remont__devais_kugoo"><p>Ремонт самокаты</p><a class="button__none-info"></a></div>
+                    <div class="swiper-slide remont__devais_monitor"><p>Ремонт мониторы</p><a class="button__none-info"></a></div>
+                    <div class="swiper-slide remont__devais_ves"><p>Ремонт весы</p><a class="button__none-info"></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <button class="button__remont-devais_show-more">Показать все</button>
+            <button class="button__remont-devais_collapse">Скрыть</button>
+        </section> 
+
+        <section class="prais__list">
+            <div class="prais__list-title"><p>цены на услуги</p></div>
+            <div class="prais__list-swiper swiper">
+                <div class="prais__list-swiper-wrapper swiper-wrapper">
+                    <div class="prais__list-description swiper-slide" id="mobil-none">
+                        <p class="service-description_titl">Ремонтные услуги</p>
+                        <p class="price_titl">Цена</p>
+                        <p class="term-titl">Срок</p>
+                    </div>
+                    <div class="prais-list__diagnostics  swiper-slide">
+                        <p class="slade-var_description">Ремонтные услуги</p>
+                        <p class="name">Диагностика</p>
+                        <p class="slade-var_prise">Цена</p>
+                        <p class="price">Бесплатно</p>
+                        <p class="slade-var_term">Срок</p>
+                        <p class="term">30 мин</p>
+                        <button class="prais__list_diagnostics-button button__none-info"><p>Заказать</p><img src="./img/goside.svg"></button>
+                    </div>    
+                    <div class="prais-list_display swiper-slide">
+                        <p class="slade-var_description">Ремонтные услуги</p>
+                        <p class="name">Замена дисплея</p>
+                        <p class="slade-var_prise">Цена</p>
+                        <p class="price">1000 Р</p>
+                        <p class="slade-var_term">Срок</p>
+                        <p class="term">30-120 мин</p>
+                        <button class="prais-list_display--button button__none-info"><p>Заказать</p><img src="./img/goside.svg"></button>
+                    </div>
+                    <div class="prais-list_speaker swiper-slide">
+                        <p class="slade-var_description">Ремонтные услуги</p>
+                        <p class="name">Замена полифонического динамика</p>
+                        <p class="slade-var_prise">Цена</p>
+                        <p class="price">1000 Р</p>
+                        <p class="slade-var_term">Срок</p>
+                        <p class="term">30-120 мин</p>
+                        <button class="prais-list_speaker-button button__none-info"><p>Заказать</p><img src="./img/goside.svg"></button>
+                    </div>
+                    <div class="prais-list_test swiper-slide">
+                        <p class="slade-var_description">Ремонтные услуги</p>
+                        <p class="name">Тестирование с выдачей технического заключения</p>
+                        <p class="slade-var_prise">Цена</p>
+                        <p class="price">1000 Р</p>
+                        <p class="slade-var_term">Срок</p>
+                        <p class="term">30-120 мин</p>
+                        <button class="prais-list_test-button button__none-info"><p>Заказать</p><img src="./img/goside.svg"></button>
+                    </div>
+                    <div class="prais-list_firmware swiper-slide">
+                        <p class="slade-var_description">Ремонтные услуги</p>
+                        <p class="name">Замена програмного обеспечения</p>
+                        <p class="slade-var_prise">Цена</p>
+                        <p class="price">1000 Р</p>
+                        <p class="slade-var_term">Срок</p>
+                        <p class="term">30-120 мин</p>
+                        <button class="prais-list_firmware-button button__none-info"><p>Заказать</p><img src="../src/img/goside.svg"></button>
+                    </div>      
+                </div>
+                <div class="swiper-pagination"></div>               
+            </div>            
+        </section>
+
+        <section class="info">
+            <p class="info_text">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу.
+                 Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+            <a href="#" class="info_link button__none-info">Получить коммерческое предложение <img src="./img/Line.svg"></a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__content">© 2019 CPS <br>Разработано командой Apesong </p>
+        <p class="footer__content">Политика конфиденциальности</p>
+        <p class="footer__content end">Информация, размещенная на данной странице, не является публичной офертой</p>
+    </footer>
+    <script src="./js/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+  <script type="text/javascript" src="./js/bundle.js"></script>
+</body>
+</html>
+ 
